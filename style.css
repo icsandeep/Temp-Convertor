@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&family=Poppins:wght@300;400&family=Roboto&family=Tektur&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #855A5C;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    max-width: 600px;
+    width: 100%;
+    padding: 35px;
+    border-radius: 15px;
+    background: #66101F ;
+    box-shadow: 10px black;
+}
+.container .inputs h6{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.container .icon{
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.container .inputs input{
+    max-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    color: grey;
+}
+
+.inputs input::-webkit-inner-spin-button,
+.inputs input::-webkit-outer-spin-button{
+    display: none;
+}
